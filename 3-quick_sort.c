@@ -36,6 +36,15 @@ int partition(int *array, int low, int high, size_t size)
 
 
 
+/**
+ * sort_quickly - recursively implements the quick_sort algorithm
+ * @array: a pointer to the beginning of the array
+ * @low: where to start looking in the array
+ * @high: where to stop lookin in the array
+ * @size: size of the array
+ *
+ * Return: the final index of the pivot
+ */
 
 
 void sort_quickly(int *array, int low, int high, size_t size)
