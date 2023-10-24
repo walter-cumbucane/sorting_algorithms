@@ -27,6 +27,7 @@ void print_list(const listint_t *list);
 /* algorithms */
 void bubble_sort(int *array, size_t size);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
 
 /* Operational functions */
 size_t smallest(int *array, size_t size, size_t i);
