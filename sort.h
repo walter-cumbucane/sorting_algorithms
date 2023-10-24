@@ -31,5 +31,7 @@ void quick_sort(int *array, size_t size);
 
 /* Operational functions */
 size_t smallest(int *array, size_t size, size_t i);
+int partition(int *array, int low, int high, size_t size);
+void sort_quickly(int *array, int low, int high, size_t size);
 
 #endif
